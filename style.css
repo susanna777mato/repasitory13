@@ -1,0 +1,81 @@
+.backgrunde {
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr;
+}
+
+.cosmos {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-template-rows: 450px;
+  justify-content: center;
+}
+
+.img-cosmos {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-right: 15px;
+  padding-top: 25px;
+}
+
+.text {
+  color: black;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-size: 23px;
+  width: 400px;
+}
+
+hr {
+  padding-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  width: 800px;
+}
+
+button {
+  padding-top: 40px;
+  margin-left: 50px;
+}
+
+.svg {
+  display: flex;
+  flex-direction: row;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+
+.svg-and-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+pre {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.next {
+  display: grid;
+  justify-content: end;
+  align-content: end;
+  height: 200px;
+}
